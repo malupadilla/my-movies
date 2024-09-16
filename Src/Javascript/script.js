@@ -26,11 +26,11 @@ plusButton.addEventListener('click', () => {
 minusButton.addEventListener('click', () => {
     count -= 1;
     updateValue();
-    localStorage.setItem('count', count); // Armazena o valor atualizado no Local Storage
+    localStorage.setItem('count2', count); // Armazena o valor atualizado no Local Storage
 });
 
 resetButton.addEventListener('click', () => {
     count = 0;
     updateValue();
-    localStorage.setItem('count', count); // Armazena o valor atualizado no Local Storage
+    localStorage.setItem('count2', count); // Armazena o valor atualizado no Local Storage
 });
