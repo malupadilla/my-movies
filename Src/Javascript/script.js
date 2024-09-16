@@ -20,7 +20,7 @@ updateValue(); /* Clique Normal */
 plusButton.addEventListener('click', () => {
     count += 1;
     updateValue();
-    localStorage.setItem('count', count); // Armazena o valor atualizado no Local Storage
+    localStorage.setItem('count2', count); // Armazena o valor atualizado no Local Storage
 });
 
 minusButton.addEventListener('click', () => {
