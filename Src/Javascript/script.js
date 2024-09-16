@@ -1,11 +1,11 @@
 let count = 0;
 
-// Verifica se existe um valor armazenado para 'count' no Local Storage
+// Verifica se existe um valor armazenado para 'count2' no Local Storage
 if (localStorage.getItem('count2')) {
     count = parseInt(localStorage.getItem('count2'));
 }
 
-// Atualiza o elemento HTML com o valor de 'count' ao carregar a página
+// Atualiza o elemento HTML com o valor de 'count2' ao carregar a página
 const value = document.getElementById('value');
 const plusButton = document.getElementById('plus');
 const minusButton = document.getElementById('minus');
